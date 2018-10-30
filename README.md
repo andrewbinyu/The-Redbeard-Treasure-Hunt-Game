@@ -27,8 +27,9 @@ When we use this representation of a binary tree, the following relationships ho
 These relationships allow us to efficiently calculate the parent, left child, or right child of any node! And since the tree is complete we do not waste space using the array representation. Time efficiency and space efficiency! We make use of these features in our heap implementation.
 
 ## How to play
-In GameTest.java file, you can change the parameters to create this TreasureHunt object in the following script
+1.In GameTest.java file, you can change the parameters to create this TreasureHunt object in the following script
 
     TreasureHunt game = new TreasureHunt(40, 50, 40, 10, 10000);
   
-run GameTest.java file
+2.modify game.txt file to change the route of your ship and the time you use sonar to detect the Redbeard
+3.run GameTest.java file
