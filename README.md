@@ -28,5 +28,7 @@ These relationships allow us to efficiently calculate the parent, left child, or
 
 ## How to play
 In GameTest.java file, you can change the parameters to create this TreasureHunt object in the following script
-  TreasureHunt game = new TreasureHunt(40, 50, 40, 10, 10000);
-run GameTest
+
+    TreasureHunt game = new TreasureHunt(40, 50, 40, 10, 10000);
+  
+run GameTest.java file
