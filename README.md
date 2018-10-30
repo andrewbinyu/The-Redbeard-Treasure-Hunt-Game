@@ -19,7 +19,14 @@ Since a heap is a complete tree, all its levels but the last are complete. The l
 
 Observe that the root (that is the lowest value element - in that case the letter ”J” of course assuming the highest value letter of the alphabet is ”A” and the lowest value letter of the alphabet is ”Z”) is mapped (in the implementation) to the lement with index 0 of the array to the right. Its immediate children occupy the cells 1 and 2 of the array. The children of the level 1 occupy elements 3,4,5,6. And so son.  
 
-When we use this representation of a binary tree, the following relationships hold for an element at position index:
+When we use this representation of a binary tree, the following relationships hold for an element at position index:  
 • If the element is not the root, its parent is at position (index 1) / 2.  
 • If the element has a left child, the child is at position (index * 2) + 1.  
 • If the element has a right child, the child it is at position (index * 2) + 2.  
+
+These relationships allow us to efficiently calculate the parent, left child, or right child of any node! And since the tree is complete we do not waste space using the array representation. Time efficiency and space efficiency! We make use of these features in our heap implementation.
+
+## How to play
+In GameTest.java file, you can change the parameters to create this TreasureHunt object in the following script
+  TreasureHunt game = new TreasureHunt(40, 50, 40, 10, 10000);
+run GameTest
