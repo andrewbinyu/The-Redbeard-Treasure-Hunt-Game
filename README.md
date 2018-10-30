@@ -32,4 +32,5 @@ These relationships allow us to efficiently calculate the parent, left child, or
     TreasureHunt game = new TreasureHunt(40, 50, 40, 10, 10000);
   
 2.modify game.txt file to change the route of your ship and the time you use sonar to detect the Redbeard
-3.run GameTest.java file
+
+3.run GameTest.java file to display the detection result
