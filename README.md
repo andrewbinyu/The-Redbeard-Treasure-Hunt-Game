@@ -16,8 +16,10 @@ Heaps are complete binary trees that satisfy these conditions:
 1. The smallest value (or highest priority) element sits at the root. 
 2. Every subtree of a heap is also a heap.
 Since a heap is a complete tree, all its levels but the last are complete. The last level may miss some leaves in the rightmost position. An example of a heap is shown in the next image.  
+
 Observe that the root (that is the lowest value element - in that case the letter ”J” of course assuming the highest value letter of the alphabet is ”A” and the lowest value letter of the alphabet is ”Z”) is mapped (in the implementation) to the lement with index 0 of the array to the right. Its immediate children occupy the cells 1 and 2 of the array. The children of the level 1 occupy elements 3,4,5,6. And so son.  
+
 When we use this representation of a binary tree, the following relationships hold for an element at position index:
-• If the element is not the root, its parent is at position (index 1) / 2.
-• If the element has a left child, the child is at position (index * 2) + 1.
-• If the element has a right child, the child it is at position (index * 2) + 2.
+• If the element is not the root, its parent is at position (index 1) / 2.  
+• If the element has a left child, the child is at position (index * 2) + 1.  
+• If the element has a right child, the child it is at position (index * 2) + 2.  
